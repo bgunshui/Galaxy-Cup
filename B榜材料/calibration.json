@@ -1,0 +1,19 @@
+{
+  "t2_crop_scales": {
+    "水稻": 1.2,
+    "玉米": 0.925,
+    "棉花": 1.225,
+    "大豆": 1.1,
+    "冬小麦": 0.95
+  },
+  "t3_crop_scales": {
+    "水稻": 1.025,
+    "玉米": 0.975,
+    "棉花": 1.15,
+    "大豆": 1.0,
+    "冬小麦": 1.025
+  },
+  "t2_threshold_km2": 1.0,
+  "source": "official training subset excluded from the v972/v973 stage pool; inherited task weights may have seen it; no test labels",
+  "single_checkpoint": "weights/v973/best_task_heads.pt"
+}

@@ -1,0 +1,31 @@
+# 体积过大、不入库的提交包内容（来源、版本与获取方式见 README 第 3 节）
+B榜材料/weights/
+B榜材料/training/initial/*.pt
+B榜材料/dependencies/wheels/
+B榜材料/dependencies/runtime/
+B榜材料/dependencies/*.tar.gz
+B榜材料/**/*.log
+
+# 权重二进制一律不入库
+*.pt
+*.safetensors
+*.ckpt
+*.bin
+*.whl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 输出与中间产物
+*.tmp
+/tmp/

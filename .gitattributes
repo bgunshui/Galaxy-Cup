@@ -1,0 +1,14 @@
+# 统一按 LF 存储，避免 Windows 检出时把 shell/python 脚本改成 CRLF 导致在 Linux 上无法执行
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.py   text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+
+# 二进制权重不做换行/文本处理
+*.pt          binary
+*.safetensors binary
+*.whl         binary
+*.gz          binary
